@@ -1,0 +1,29 @@
+body {
+    background-color:antiquewhite;
+}
+
+h1 {
+    color:blue;
+    font-family:'Courier New', Courier, monospace
+}
+
+.one{
+    background-color: aqua;
+    color:aliceblue
+    margin-left: 200px
+    text-align: center;
+}
+
+.two{
+    background-color: aqua;
+    color:aliceblue
+    margin-left: 200px
+    text-align: center;
+}
+
+.three{
+    background-color: rgb(221, 0, 255);
+    color:aliceblue
+    margin-left: 200px
+    text-align: center;
+}
