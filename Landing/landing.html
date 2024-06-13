@@ -6,63 +6,266 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootsrap.min.css">
     <link rel="stylesheet" href="landing.css">
     <title>Landing Page</title>
+<style>
 
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://indieground.net/wp-content/uploads/2023/03/Freebie-GradientTextures-Preview-03.jpg');
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header .logo {
+            font-size: 24px;
+            color: #333;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .main-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .compatible-icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .compatible-icons img {
+            width: 40px;
+            height: 40px;
+        }
+        .screenshot {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .screenshot img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .image-boxes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 50px;
+            padding: 0 20px;
+        }
+        .image-box {
+          width: 300px;
+          height: 200px;
+          background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black background */
+          border: 1px solid #000; /* Optional: border to see the box outline */
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+        }
+        .image-box p {
+            padding: 20px;
+            font-size: 16px;
+        }
+    </style>
 </head>
-
-<!--Top Tab-->
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col text-center top">
-        <h1>World Travelers</h1>
-      </div>
-    </div>
-
-    <div class="row">
-        <div class="col">   
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-        </div>
-   </div>
-
-<!--Hero Tab-->
-<div class="row">
-    <div class="col hero">
-        <h1 class="text-center mt-8">Welcome</h1>
-        <h3 class ="text-center">Come travel the world with us today!</h3>
-        <button type="button" class="btn btn -info justify-content-center">Book</button>
-    </div>
-</div>
-
-<!--Destinations-->
-<div class="row m-4 cards">
-    <div class="col-4">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5></h5>
-                <p class="card-text">Some quick example</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a> 
-            </div>
+    <header>
+        <div class="logo">Shades</div>
+        <nav>
+            <a href="#">Free Landing Pages</a>
+            <a href="#">Features</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+            <a href="#" class="btn">Login</a>
+            <a href="#" class="btn">Download Trial</a>
+        </nav>
+    </header>
+    <div class="main-content">
+        <h1>MANGOS</h1>
+        <p>Software </p>
+        <a href="#" class="btn">Download free trial</a>
+        <div class="compatible-icons">
+            <img src="https://img.icons8.com/ios-filled/50/000000/windows8.png" alt="Windows">
+            <img src="https://img.icons8.com/ios-filled/50/000000/mac-os.png" alt="MacOS">
+            <img src="https://img.icons8.com/ios-filled/50/000000/linux.png" alt="Linux">
         </div>
     </div>
+    <div class="screenshot">
+        <img src="screenshot.jpg" alt="Software Screenshot">
+    </div>
+    <div class="image-boxes">
+        <div class="image-box">
+            <img src="image1.jpg" alt="Image 1">
+            <p>Image 1 Description</p>
+        </div>
+        <div class="image-box">
+            <img src="image2.jpg" alt="Image 2">
+            <p>Image 2 Description</p>
+        </div>
+        <div class="image-box">
+            <img src="image3.jpg" alt="Image 3">
+            <p>Image 3 Description</p>
+        </div>
+    </div>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4fc;
+      color: #333;
+  }
+  .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px 20px;
+  }
+  .box {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: calc(50% - 20px);
+      max-width: 600px;
+      text-align: left;
+      padding: 20px;
+  }
+  .box img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+  }
+  .box h3 {
+      color: #337ab7;
+      font-size: 24px;
+      margin: 20px 0 10px;
+  }
+  .box p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 10px 0 20px;
+  }
+  .box .btn {
+      background-color: #337ab7;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  .box .btn:hover {
+      background-color: #23527c;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="box">
+      <img src="https://via.placeholder.com/600x400" alt="Image 1">
+      <h3>Praesent placerat magna</h3>
+      <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum.</p>
+      <a href="#" class="btn">More</a>
+  </div>
+  <div class="box">
+      <img src="https://via.placeholder.com/600x400" alt="Image 2">
+      <h3>Fusce pellentesque tempus</h3>
+      <p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non commodo sodales tempus.</p>
+      <a href="#" class="btn">More</a>
+  </div>
 </div>
+
+
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4fc;
+      color: #333;
+  }
+  .footer {
+      background-color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      border-top: 1px solid #ddd;
+  }
+  .social-icons {
+      margin-bottom: 10px;
+  }
+  .social-icons a {
+      color: #337ab7;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 24px;
+  }
+  .social-icons a:hover {
+      color: #23527c;
+  }
+  .credit {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .credit a {
+      color: #000;
+      text-decoration: none;
+  }
+  .credit a:hover {
+      text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<footer class="footer">
+  <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+      <a href="https://www.vimeo.com" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+  </div>
+  <div class="credit">
+      Site made with: <a href="https://templated.co" target="_blank">TEMPLATED.CO</a>
+  </div>
+</footer>
+
 </body>
-
 </html>
-
-<!--Contact Form-->
-<div class="row"
-<div class = "col mb-3"
